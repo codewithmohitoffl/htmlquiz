@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test your knowledge about HTML basics with this interactive quiz!">
+    <meta name="keywords" content="HTML quiz, interactive quiz, learn HTML">
+    <meta name="author" content="Your Name">
+    <title>HTML Basics Quiz - Set 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question h3 {
+            margin-bottom: 10px;
+        }
+        .answers {
+            list-style: none;
+            padding: 0;
+        }
+        .answers li {
+            margin-bottom: 10px;
+        }
+        .answers li label {
+            display: inline-block;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e7f3e7;
+            border: 1px solid #d4e7d4;
+            border-radius: 5px;
+            display: none;
+        }
+        .feedback {
+            margin-top: 10px;
+            padding: 10px;
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Basics Quiz - Set 2</h1>
+        <p>Think you know HTML? Take this new quiz to test your skills!</p>
+
+        <div class="question" id="question1">
+            <h3>1. Which HTML element is used to define the document type?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q1" value="wrong"> A. &lt;html&gt;</label></li>
+                <li><label><input type="radio" name="q1" value="correct"> B. &lt;!DOCTYPE&gt;</label></li>
+                <li><label><input type="radio" name="q1" value="wrong"> C. &lt;doctype&gt;</label></li>
+                <li><label><input type="radio" name="q1" value="wrong"> D. &lt;head&gt;</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question2">
+            <h3>2. Which tag is used to define a table row?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q2" value="wrong"> A. &lt;td&gt;</label></li>
+                <li><label><input type="radio" name="q2" value="correct"> B. &lt;tr&gt;</label></li>
+                <li><label><input type="radio" name="q2" value="wrong"> C. &lt;table&gt;</label></li>
+                <li><label><input type="radio" name="q2" value="wrong"> D. &lt;row&gt;</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question3">
+            <h3>3. Which HTML attribute specifies an alternate text for an image?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q3" value="correct"> A. alt</label></li>
+                <li><label><input type="radio" name="q3" value="wrong"> B. src</label></li>
+                <li><label><input type="radio" name="q3" value="wrong"> C. title</label></li>
+                <li><label><input type="radio" name="q3" value="wrong"> D. description</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question4">
+            <h3>4. How can you make a text bold in HTML?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q4" value="correct"> A. &lt;b&gt;</label></li>
+                <li><label><input type="radio" name="q4" value="wrong"> B. &lt;bold&gt;</label></li>
+                <li><label><input type="radio" name="q4" value="wrong"> C. &lt;strong&gt;</label></li>
+                <li><label><input type="radio" name="q4" value="wrong"> D. &lt;em&gt;</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question5">
+            <h3>5. What is the correct HTML element for a line break?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q5" value="correct"> A. &lt;br&gt;</label></li>
+                <li><label><input type="radio" name="q5" value="wrong"> B. &lt;lb&gt;</label></li>
+                <li><label><input type="radio" name="q5" value="wrong"> C. &lt;break&gt;</label></li>
+                <li><label><input type="radio" name="q5" value="wrong"> D. &lt;ln&gt;</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question6">
+            <h3>6. What is the purpose of the &lt;head&gt; tag in HTML?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q6" value="correct"> A. It contains metadata and links to external resources.</label></li>
+                <li><label><input type="radio" name="q6" value="wrong"> B. It contains the main content of the document.</label></li>
+                <li><label><input type="radio" name="q6" value="wrong"> C. It is used to display headings.</label></li>
+                <li><label><input type="radio" name="q6" value="wrong"> D. It defines the body of the document.</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question7">
+            <h3>7. Which HTML element is used to define emphasized text?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q7" value="correct"> A. &lt;em&gt;</label></li>
+                <li><label><input type="radio" name="q7" value="wrong"> B. &lt;i&gt;</label></li>
+                <li><label><input type="radio" name="q7" value="wrong"> C. &lt;strong&gt;</label></li>
+                <li><label><input type="radio" name="q7" value="wrong"> D. &lt;mark&gt;</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question8">
+            <h3>8. What is the correct HTML element for inserting a styled quote?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q8" value="correct"> A. &lt;blockquote&gt;</label></li>
+                <li><label><input type="radio" name="q8" value="wrong"> B. &lt;q&gt;</label></li>
+                <li><label><input type="radio" name="q8" value="wrong"> C. &lt;quote&gt;</label></li>
+                <li><label><input type="radio" name="q8" value="wrong"> D. &lt;cite&gt;</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question9">
+            <h3>9. How can you specify the language of an HTML document?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q9" value="correct"> A. Using the "lang" attribute in the &lt;html&gt; tag</label></li>
+                <li><label><input type="radio" name="q9" value="wrong"> B. Using the "language" attribute in the &lt;body&gt; tag</label></li>
+                <li><label><input type="radio" name="q9" value="wrong"> C. Using the "meta" tag with charset</label></li>
+                <li><label><input type="radio" name="q9" value="wrong"> D. By including a script file</label></li>
+            </ul>
+        </div>
+
+        <div class="question" id="question10">
+            <h3>10. Which HTML element is used to display preformatted text?</h3>
+            <ul class="answers">
+                <li><label><input type="radio" name="q10" value="correct"> A. &lt;pre&gt;</label></li>
+                <li><label><input type="radio" name="q10" value="wrong"> B. &lt;code&gt;</label></li>
+                <li><label><input type="radio" name="q10" value="wrong"> C. &lt;plaintext&gt;</label></li>
+                <li><label><input type="radio" name="q10" value="wrong"> D. &lt;format&gt;</label></li>
+            </ul>
+        </div>
+
+        <button onclick="checkAnswers()">Submit Answers</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            const questions = document.querySelectorAll('.question');
+            let score = 0;
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '';
+
+            questions.forEach((question, index) => {
+                const selected = question.querySelector('input[type="radio"]:checked');
+                const correct = question.querySelector('input[type="radio"][value="correct"]');
+
+                if (selected) {
+                    if (selected.value === 'correct') {
+                        score++;
+                    } else {
+                        const feedback = document.createElement('div');
+                        feedback.classList.add('feedback');
+                        feedback.innerHTML = `Question ${index + 1}: You selected option "${selected.parentNode.textContent.trim().charAt(0)}". The correct answer is option "${correct.parentNode.textContent.trim().charAt(0)}".`;
+                        question.appendChild(feedback);
+                    }
+                } else {
+                    const feedback = document.createElement('div');
+                    feedback.classList.add('feedback');
+                    feedback.innerHTML = `Question ${index + 1}: You did not select an answer. The correct answer is option "${correct.parentNode.textContent.trim().charAt(0)}".`;
+                    question.appendChild(feedback);
+                }
+            });
+
+            resultDiv.style.display = 'block';
+            resultDiv.textContent = `You scored ${score} out of ${questions.length}!`;
+        }
+    </script>
+</body>
+</html>
